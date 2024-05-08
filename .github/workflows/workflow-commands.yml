@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
  wf_command:
- on: ubuntu-latest
+ runs-on: ubuntu-latest
 steps:
  - name: Step1
    run: echo "Hello"
